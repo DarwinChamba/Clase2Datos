@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="380dp"
+    app:cardCornerRadius="24dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:cardElevation="4dp">
+
+        <TextView
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="#E60954"
+            android:textStyle="bold"
+            android:id="@+id/titleDialog"
+            android:textSize="30sp"
+            android:text="Information record"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            style="@style/MisEstilos"
+            android:id="@+id/nombreDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enther your name"/>
+        <EditText
+            android:id="@+id/apellidoDialog"
+            style="@style/MisEstilos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enther your lastname" />
+
+        <EditText
+            android:id="@+id/edadDialog"
+            style="@style/MisEstilos"
+            android:inputType="text|number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enther your age" />
+
+        <EditText
+            android:id="@+id/imagenDialog"
+            style="@style/MisEstilosImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enther your image" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/guardarDialog"
+            android:layout_width="match_parent"
+            android:text="save"
+            android:background="@drawable/back_1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginVertical="15dp"
+            android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
